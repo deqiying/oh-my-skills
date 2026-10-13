@@ -1,0 +1,10 @@
+# 自动识别文本并统一使用 LF；不对二进制资源做换行转换。
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary

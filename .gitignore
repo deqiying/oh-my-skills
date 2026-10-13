@@ -1,0 +1,35 @@
+# 临时参考仓库，不属于正式交付内容。
+/write-notes-like-deepseek/
+
+# 编辑器与操作系统本地文件。
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# 本地依赖、运行缓存与测试缓存。
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+/coverage/
+/*.log
+
+# 环境文件可能含凭据；明确标记的示例可以提交。
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.sample
+!.env.template
+
+# 不整体忽略 .agents/、skills/*/references/、templates/ 或 assets/。
+# 新增构建工具时再按真实产物补规则，避免误忽略技能资源。
