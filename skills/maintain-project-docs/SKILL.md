@@ -87,7 +87,7 @@ description: >-
 - [Monorepo 文档分层](references/monorepo.md)：根级与工作区局部文档、入口及跨模块变更。
 - [docs 维护流程](references/docs-maintenance.md)：影响定位、事实来源、同步和场景验收。
 - [notes 规范](references/notes.md)：分类、格式、生命周期、替代与归档。
-- [验证说明](references/verification.md)：notes 脚本、docs 检查、运行前提与回归测试。
+- [验证说明](references/verification.md)：原生 notes 脚本的运行前提、执行顺序与结果边界。
 
 ## 来源与范围
 
